@@ -40,3 +40,44 @@ BULLET POINTS
     - isinstance() BIF checks whether an identifier refers to a data
       object of some specified type.
     - Use def to define a custom function.
+
+Chapter 2. Sharing your Code: Modules of functions
+
+PYTHON LINGO
+
+    - Use a “triple-quoted string” to include a multiple-line comment in your
+      code.
+    - “PyPI” is the Python Package Index and is well worth a visit.
+    - A “namespace” is a place in Python’s memory where names exist.
+    - Python’s main namespace is known as __main__.
+
+IDLE NOTES
+
+    - Press F5 to “run” the code in the IDLE edit window.
+    - When you press F5 to “load” a module’s code into the IDLE shell, the
+      module’s names are specifically imported into IDLE’s namespace. This is a
+      convenience when using IDLE. Within your code, you need to use the import
+      statement explicitly.
+
+BULLET POINTS
+
+    - A module is a text file that contains Python code.
+    - The distribution utilities let you turn your module into a shareable
+      package.
+    - The setup.py program provides metadata about your module and is used to
+      build, install, and upload your packaged distribution.
+    - Import your module into other programs using the import statement.
+    - Each module in Python provides its own namespace, and the namespace name
+      is used to qualify the module’s functions when invoking them using the
+      module.function() form.
+    - Specifically import a function from a module into the current namespace
+      using the from module import function form of the import statement.
+    - Use # to comment-out a line of code or to add a short, one-line comment
+      to your program.
+    - The built-in functions (BIFs) have their own namespace called
+      __builtins__, which is automatically included in every Python program.
+    - The range() BIF can be used with for to iterate a fixed number of times.
+    - Including end='' as a argument to the print() BIF switches off its
+      automatic inclusion of a new-line on output.
+    - Arguments to your functions are optional if you provide them with a
+      default value.
