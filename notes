@@ -1,0 +1,42 @@
+Chapter 1. Meet Python: Everyone loves lists
+
+PYTHON LINGO
+
+    - “BIF” - a built-in function.
+    - “Suite” - a block of Python code, which is indented to indicate
+      grouping.
+
+IDLE NOTES
+
+    - The IDLE shell lets you experiment with your code as you write it.
+    - Adjust IDLE’s preferences to suit the way you work.
+    - Remember: when working with the shell, use Alt-P for Previous and
+      use Alt-N for Next (but use Ctrl if you’re on a Mac).
+
+BULLET POINTS
+
+    - “Batteries included” - a way of referring to the fact that Python
+      comes with most everything you’ll need to get going quickly and
+      productively.
+    - Run Python 3 from the command line or from within IDLE.
+    - Identifiers are names that refer to data objects. The identifiers
+      have no “type,” but the data objects that they refer to do.
+    - print() BIF displays a message on screen.
+    - A list is a collection of data, separated by commas and surrounded
+      by square brackets.
+    - Lists are like arrays on steroids.
+    - Lists can be used with BIFs, but also support a bunch of list
+      methods.
+    - Lists can hold any data, and the data can be of mixed type. Lists
+      can also hold other lists.
+    - Lists shrink and grow as needed. All of the memory used by your
+      data is managed by Python for you.
+    - Python uses indentation to group statements together.
+    - len() BIF provides a length of some data object or count the
+      number of items in a collection, such as a list.
+    - The for loop lets you iterate a list and is often more convenient
+      to use that an equivalent while loop.
+    - The if... else... statement lets you make decisions in your code.
+    - isinstance() BIF checks whether an identifier refers to a data
+      object of some specified type.
+    - Use def to define a custom function.
