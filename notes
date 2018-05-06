@@ -81,3 +81,41 @@ BULLET POINTS
       automatic inclusion of a new-line on output.
     - Arguments to your functions are optional if you provide them with a
       default value.
+
+Chapter 3. Files and Exceptions: Dealing with errors
+
+PYTHON LINGO
+
+    - An “exception” occurs as a result of a runtime error, producing a
+      traceback.
+    - A “traceback” is a detailed description of the runtime error that has
+      occurred.
+
+IDLE NOTES
+
+    - Access Python’s documentation by choosing Python Docs from IDLE’s Help
+      menu. The Python 3 documentation set should open in your favorite web
+      browser.
+
+BULLET POINTS
+
+    - Use the open() BIF to open a disk file, creating an iterator that reads
+      data from the file one line at a time.
+    - The readline() method reads a single line from an opened file.
+    - The seek() method can be used to “rewind” a file to the beginning.
+    - The close() method closes a previously opened file.
+    - The split() method can break a string into a list of parts.
+    - An unchangeable, constant list in Python is called a tuple. Once list
+      data is assigned to a tuple, it cannot be changed. Tuples are immutable.
+    - A ValueError occurs when your data does not conform to an expected
+      format.
+    - An IOError occurs when your data cannot be accessed properly (e.g.,
+      perhaps your data file has been moved or renamed).
+    - The help() BIF provides access to Python’s documentation within the IDLE
+      shell.
+    - The find() method locates a specific substring within another string.
+    - The not keyword negates a condition.
+    - The try/except statement provides an exception-handling mechanism,
+      allowing you to protect lines of code that might result in a runtime
+      error.
+    - The pass statement is Python’s empty or null statement; it does nothing.
