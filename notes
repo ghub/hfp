@@ -153,3 +153,48 @@ BULLET POINTS
       and restore Python data objects to disk.
     - The pickle.dump() function saves data to disk.
     - The pickle.load() function restores data from disk.
+
+Chapter 5. Comprehending data: Work that data!
+
+PYTHON LINGO
+
+    - “In-place” sorting - transforms and then replaces.
+    - “Copied” sorting - transforms and then returns.
+    - “Method Chaining” - reading from left to right, applies a collection of
+      methods to data.
+    - “Function Chaining” - reading from right to left, applies a collection of
+      functions to data.
+
+MORE PYTHON LINGO
+
+    - “List Comprehension” - specify a transformation on one line (as opposed
+      to using an iteration).
+    - A “slice” - access more than one item from a list.
+    - A “set” - a collection of unordered data items that contains no
+      duplicates.
+
+BULLET POINTS
+
+    - The sort() method changes the ordering of lists in-place.
+    - The sorted() BIF sorts most any data structure by providing copied
+      sorting.
+    - Pass reverse=True to either sort() or sorted() to arrange your data in
+      descending order.
+    - When you have code like this:
+
+        new_l = []
+        for t in old_l:
+            new_l.append(len(t))
+
+      rewrite it to use a list comprehension, like this:
+
+        new_l = [len(t) for t in old_l]
+
+    - To access more than one data item from a list, use a slice. For example:
+
+        my_list[3:6]
+
+      accesses the items from index location 3 up-to-but-not-including index
+      location 6.
+
+    - Create a set using the set() factory function.
